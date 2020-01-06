@@ -10,55 +10,109 @@
     <title>Document</title>
 </head>
 <body>
+  <!-- nav bar header -->
+  <div style="margin: 40px; padding: 20px 10px;" class="container">
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand mb-0 h1">Mark Mesina</a>
+      <div class="nav justify-content-end">
+          <a class="navbar-brand" href="index.html">About Me</a>
+          <a class="navbar-brand">|</a>
+          <a class="navbar-brand" href="portfolio.html">Portfolio</a>
+          <a class="navbar-brand">|</a>
+          <a class="navbar-brand" href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </div>
 
-  <div style="border: 5px solid black" class="header">
-        <a class="logo">Mark Mesina</a>
-        <div class="header-right">
-            <a href="index.html">About Me</a>
-            <a>|</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a>|</a>
-            <a href="contact.html">Contact</a>
-        </div>
-    </div>
+<!--Grid column-->
+<div class="container">
+  <div class="row">
 
-    <div class="content">
-
-        <h2>Portfolio</h2>
-        <hr color="black">
-        <div class="grid">
-
+    <div class="col-lg-4 col-md-6 mb-4">
     
-            
-            <div class="card">
-                <img src="./assets/images/GS Warriors.jpg" alt="GS Warriors" style="height: 75px; width: 100px">
-                <div class="container">
-                  <h4><b>GS Warriors</b></h4> 
-                   
-                </div>
-            </div>
+      <!--Card-->
+      <div class="card">
     
-            <div class="card">
-                <img src="./assets/images/SF 49ers.jpg" alt="SF 49ers" style="height: 75px; width: 100px">
-                <div class="container">
-                  <h4><b>SF 49ers</b></h4> 
-                   
-                </div>
-            </div>
-              
-            <div class="card">
-                <img src="./assets/images/SF Giants.jpg" alt="SF Giants" style="height: 75px; width: 100px">
-                <div class="container">
-                  <h4><b>SF Giants</b></h4> 
-                   
-                </div>
+        <!-- Card image -->
+        <div class="view overlay">
+          <img src="../homework1/assets/images/SF 49ers.jpg" class="card-img-top"
+            alt="">
+          <a href="#">
+            <div class="mask rgba-white-slight"></div>
+          </a>
         </div>
+    
+        <!--Card content-->
+        <div class="card-body">
+          <!--Title-->
+          <h4 class="card-title">Card title</h4>
+          <!--Text-->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+            card's content.</p>
+          <a href="#" class="btn btn-indigo">Button</a>
         </div>
-
-
-        
+      </div>
     </div>
+    
 
+      <!--/.Card-->
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+        <!--Card-->
+        <div class="card">
+      
+          <!-- Card image -->
+          <div class="view overlay">
+            <img src="../homework1/assets/images/SF Giants.jpg" class="card-img-top"
+              alt="">
+            <a href="#">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+      
+          <!--Card content-->
+          <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a href="#" class="btn btn-indigo">Button</a>
+          </div>
+        </div>
+      </div>
+    
+    <!--/.Card-->
+    <div class="col-lg-4 col-md-6 mb-4">
+    
+      <!--Card-->
+      <div class="card">
+    
+        <!-- Card image -->
+        <div class="view overlay">
+          <img src="./assets/images/GS Warriors.jpg" class="card-img-top"
+            alt="">
+          <a href="#">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+    
+        <!--Card content-->
+        <div class="card-body">
+          <!--Title-->
+          <h4 class="card-title">Card title</h4>
+          <!--Text-->
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+            card's content.</p>
+          <a href="#" class="btn btn-indigo">Button</a>
+        </div>
+      </div>
+    </div>
+    <!--/.Card-->
+  </div>
+</div>
+
+ 
     <footer class="footer">Copyright</footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
