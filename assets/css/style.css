@@ -8,35 +8,7 @@
     background-attachment: fixed;
     background-size: 100%;
   }
-  .header {
-    overflow: hidden;
-    background-color: #f1f1f1;
-    margin: 40px;
-    padding: 20px 10px;
-    line-height: 30%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  
-  .header a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px; 
-    line-height: 20%;
-    border-radius: 4px;
-  }
-  
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-    background-color: #22dfdf
-
-  }
-  .header-right {
-    float: right;
-  }
+ 
 /* footer set to bottom of page */
   .footer {
     position: fixed;;
@@ -48,7 +20,7 @@
     text-align: center;
   }
   /* content layout */
-  .content {
+  /* .content {
       background-color: lightgrey;
       margin: 40px;
       border: 5px solid black;
@@ -56,33 +28,17 @@
       font-family: Arial, Helvetica, sans-serif;
     
 
-  }
-  /* text area size */
-  textarea {
-    height: 100px;
-    width: 600px;
-  }
+  } */
+
     .img {
         float: left;
         margin left: 5px;
         margin right: 5px;
     }
  
-    /* .card {
-      display: inline-block;
-        /* Add shadows to create the "card" effect */
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-    }
-      
-      /* On mouse-over, add a deeper shadow */
-      .card:hover {
-        box-shadow: 0 8px 16px 0 yellow;
-      } */
-      
-      /* Add some padding inside the card container */
-      .container {
-        padding: 2px 16px;
-      }
-    
+    .card-img-top {
+      width: 100%;
+      height: 20vw;
+      object-fit: cover;
+  }
     
